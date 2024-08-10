@@ -18,15 +18,29 @@ public class Volume {
      
 
     //15. VOLUME OF PRISM
+    // public static void main(String[] args) {
+    //     Scanner in = new Scanner(System.in);
+    //     System.out.println("Enter the base");
+    //     double base = in.nextDouble();
+    //     System.out.println("Enter the height");
+    //     double height = in.nextDouble();
+    //     System.out.println("Enter the perpendicular height");
+    //     double perpendicularheight = in.nextDouble();
+    //     double volume = (1.0/2.0)*base*height*perpendicularheight;
+    //     System.out.println("volume is: " +volume);
+    //     in.close();
+
+    // }
+
+    
+    //16. volume of cylinder
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter the base");
-        double base = in.nextDouble();
+        System.out.println("Enter the radius");
+        double radius = in.nextDouble();
         System.out.println("Enter the height");
         double height = in.nextDouble();
-        System.out.println("Enter the perpendicular height");
-        double perpendicularheight = in.nextDouble();
-        double volume = (1.0/2.0)*base*height*perpendicularheight;
+        double volume = height*Math.PI*Math.pow(radius, 2);
         System.out.println("volume is: " +volume);
         in.close();
 
