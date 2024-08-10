@@ -34,13 +34,24 @@ public class Volume {
 
     
     //16. volume of cylinder
+    // public static void main(String[] args) {
+    //     Scanner in = new Scanner(System.in);
+    //     System.out.println("Enter the radius");
+    //     double radius = in.nextDouble();
+    //     System.out.println("Enter the height");
+    //     double height = in.nextDouble();
+    //     double volume = height*Math.PI*Math.pow(radius, 2);
+    //     System.out.println("volume is: " +volume);
+    //     in.close();
+
+    // }
+
+    //17. volume of sphere
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the radius");
         double radius = in.nextDouble();
-        System.out.println("Enter the height");
-        double height = in.nextDouble();
-        double volume = height*Math.PI*Math.pow(radius, 2);
+        double volume = (4.0/3.0)*Math.PI*Math.pow(radius, 3);
         System.out.println("volume is: " +volume);
         in.close();
 
