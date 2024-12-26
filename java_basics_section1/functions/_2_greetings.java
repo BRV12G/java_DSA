@@ -4,7 +4,7 @@ public class _2_greetings {
     public static void main(String[] args) {
         greetings();
     }
-   static void greetings(){
+   public static void greetings(){
         System.out.println("greetings of");
     }
 }
